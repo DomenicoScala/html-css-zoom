@@ -46,7 +46,60 @@ main{
 */
 footer{
     height: 100px;
+    background-color: #202020;
+    display: flex;
+    justify-content: space-between;
 }
+
+
+footer > div > *{
+    height: 100%;
+    background-color:#202020;
+    color: white;
+    vertical-align: middle;
+    border: none;
+    padding: 5px;
+
+    
+}
+ 
+button span{
+    padding: 4px;
+}
+
+
+.green{
+    color: green;
+    font-size: 35px;
+}
+   
+.icon{
+    font-size: 35px;
+}
+
+.chevron{
+    font-size: 10px;
+}
+
+button div{
+    margin-top: 5px;
+}
+
+.invite{
+    margin-right: 9px;
+}
+
+
+.endmeet{
+    color: red;
+    background-color: #5c5c5c;
+    padding: 15px;
+}
+
+
+
+
+
 
 
 /*
@@ -61,7 +114,3 @@ footer{
 
 }
 
-.debug footer{
-    background-color: black;
-
-}
